@@ -1,0 +1,88 @@
+header a, footer a {
+    text-decoration: none;
+    color: #fff;
+}
+header input, header button {
+    border: none;
+    outline: none;
+    margin-top: -64px;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 32px;
+    z-index: 999;
+    transition: 0.6s;
+    input {
+        padding: 9.5px;
+    }
+    button {
+        background-color: $first-color;
+        padding: 6px;
+        cursor: pointer;
+    }
+    ul ul {
+        display: none;
+        position: absolute;
+        top: 30%;
+        left: 48.72%;
+        line-height: 22px;
+    }
+    ul ul a {
+        font-size: 0.9rem;
+    }
+    li:hover ul {
+        display: block;
+    }
+    li {
+        margin-bottom: 80px;
+    }
+    ul ul li {
+        margin-bottom: 0;
+    }
+    a {
+        text-transform: uppercase;
+        font-family: $second-font;
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+    a:hover {
+        color: $second-color;
+    }
+}
+.logo_bleu {
+    display: none;
+}
+.header-active {
+    background-color: #fff;
+    box-shadow: 0 -3px 10px #111;
+    align-items: center;
+    padding: 0;
+}
+.header-active nav {
+    margin-bottom: -80px;
+}
+.header-active a {
+    color: #111;
+}
+.header-active .recherche {
+    margin-top: 55px;
+}
+.header-active ul ul {
+    background-color: #fff;
+    top: 61%;
+    left: 50.2%;
+}
+.header-active input[type="search"], .header-active .btn-recherche {
+    border: 1px solid #111;
+}
+.header-active #home, .header-active #person, .header-active #bag {
+    fill: $first-color;
+}
+.header-active .logo {
+    display: none;
+}
+.header-active .logo_bleu {
+    display: block;
+}

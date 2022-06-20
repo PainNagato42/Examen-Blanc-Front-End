@@ -1,0 +1,48 @@
+@import 'var';
+
+.btn {
+    border: 1px solid #111;
+    padding: 8px 64px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #111;
+    font-family: $second-font;
+    font-size: 1.2rem;
+}
+.btn:hover {
+    color: #fff;
+    background-color: $first-color;
+}
+.btn-slogan {
+    border-color: #fff;
+    background-color: $second-color;
+    color: #fff;
+    margin-top: 20px;
+}
+.btn-slogan:hover {
+    background-color: $first-color;
+}
+.btn-presentation {
+    border-color: #fff;
+    color: #fff;
+    margin-top: 18px;
+    padding: 8px 16px;
+}
+.btn-presentation:hover {
+    border-color: $second-color;
+    color: $second-color;
+}
+.btn-quantite {
+    background-color: $first-color;
+    color: #fff;
+    padding: 8px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.btn-moins {
+    padding: 8px 10.25px;
+}
+.btn-produit {
+    padding: 8px 32px;
+}

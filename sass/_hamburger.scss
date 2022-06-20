@@ -1,0 +1,55 @@
+.hamb {
+    position: absolute;
+    top: 0;
+    right: 4%;
+    width: 128px;
+    height: 128px;
+    cursor: pointer;
+}
+.barre1 {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50px;
+    height: 5px;
+}
+.barre2 {
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50px;
+    height: 5px;
+}
+.barre3 {
+    background-color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50px;
+    height: 5px;
+}
+.croix .barre1{
+    opacity: 0;
+}
+.croix .barre2 {
+    transform: rotate(45deg);
+    transition: 0.6s;
+    left: 30%;
+    top: 50%;
+}
+.croix .barre3 {
+    transform: rotate(-45deg);
+    transition: 0.6s;
+    left: 30%;
+    top: 50%;
+}
+.hamb .barre1,
+.hamb .barre2,
+.hamb .barre3 {
+    transition: 0.6s;
+}
